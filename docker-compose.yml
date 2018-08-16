@@ -1,0 +1,24 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+    - '8080:8080'
+    volumes:
+    - './code/:/var/www/'
+    networks:
+    - mysql_network
+  mysql_container:
+    image: 'mysql:5.7'
+    environment:
+    - MYSQL_ROOT_PASSWORD=userManagement
+    - MYSQL_DATABASE=userManagement
+    ports:
+    - '3306:3306'
+    networks:
+    - mysql_network
+    volumes:
+    - './mysql:/var/lib/mysql'
+networks:
+  mysql_network:
+    driver: bridge

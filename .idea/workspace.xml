@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d25f0a-44b0-4968-ae09-9383f464121f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/AppCache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/AppKernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/Resources/views/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/config_dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/config_prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/config_test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/parameters.yml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/routing_dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/security.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/app/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/bin/symfony_requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/AppBundle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/tests/AppBundle/Controller/DefaultControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/var/SymfonyRequirements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/var/cache/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/var/logs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/var/sessions/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/app_dev.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/web/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,29 +26,41 @@
         <counts>
           <entry key="dockerfile" value="1" />
           <entry key="env" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="json" value="1" />
           <entry key="md" value="1" />
+          <entry key="php" value="1" />
+          <entry key="xml" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="15" />
+          <entry key="gitignore" value="18" />
+          <entry key="json" value="17" />
           <entry key="md" value="1" />
+          <entry key="php" value="1" />
+          <entry key="txt" value="14" />
           <entry key="yml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="17" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PHP" value="1" />
+          <entry key="PLAIN_TEXT" value="47" />
           <entry key="YAML" value="25" />
         </counts>
       </usages-collector>
@@ -90,50 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/.gitignore">
+        <entry file="file://$PROJECT_DIR$/code/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="18">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="270">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -149,6 +88,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/code/composer.json" />
+        <option value="$PROJECT_DIR$/code/app/AppKernel.php" />
       </list>
     </option>
   </component>
@@ -221,23 +163,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534440546603</updated>
-      <workItem from="1534440547963" duration="1219000" />
+      <workItem from="1534440547963" duration="2609000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1534441788459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534441788459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1219000" />
+    <option name="totallyTimeSpent" value="2609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1347" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" visible="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -257,8 +207,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -281,13 +261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -295,10 +268,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
         </state>
       </provider>
     </entry>

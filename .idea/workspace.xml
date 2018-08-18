@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31d25f0a-44b0-4968-ae09-9383f464121f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" afterDir="false" />
     </list>
@@ -37,7 +34,7 @@
           <entry key="json" value="3" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="47" />
+          <entry key="php" value="53" />
           <entry key="twig" value="3" />
           <entry key="xml" value="2" />
           <entry key="yml" value="13" />
@@ -47,7 +44,7 @@
         <counts>
           <entry key="JSON" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="47" />
+          <entry key="PHP" value="53" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Twig" value="3" />
           <entry key="XML" value="2" />
@@ -61,20 +58,20 @@
           <entry key="gitignore" value="18" />
           <entry key="json" value="19" />
           <entry key="md" value="1" />
-          <entry key="php" value="2354" />
+          <entry key="php" value="2397" />
           <entry key="twig" value="460" />
-          <entry key="txt" value="131" />
-          <entry key="yml" value="232" />
+          <entry key="txt" value="163" />
+          <entry key="yml" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="19" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="2354" />
-          <entry key="PLAIN_TEXT" value="206" />
+          <entry key="PHP" value="2397" />
+          <entry key="PLAIN_TEXT" value="238" />
           <entry key="Twig" value="460" />
-          <entry key="YAML" value="232" />
+          <entry key="YAML" value="245" />
         </counts>
       </usages-collector>
     </session>
@@ -84,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="486">
+              <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="90" />
               <folding>
                 <element signature="e#40#66#0#PHP" expanded="true" />
               </folding>
@@ -93,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="51" column="75" lean-forward="true" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="75" />
+            <state relative-caret-position="428">
+              <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
               <folding>
                 <element signature="e#40#67#0#PHP" expanded="true" />
               </folding>
@@ -106,64 +103,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#37#64#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding>
-                <element signature="e#37#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/DefaultController.php">
+        <entry file="file://$PROJECT_DIR$/code/vendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/ConstraintViolationException.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding>
-                <element signature="e#40#97#0#PHP" expanded="true" />
-              </folding>
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/app/config/security.yml">
+        <entry file="file://$PROJECT_DIR$/code/vendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/ServerException.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -202,12 +154,12 @@
         <option value="$PROJECT_DIR$/code/src/AppBundle/Service/Exception/GroupNotEmptyException.php" />
         <option value="$PROJECT_DIR$/code/app/config/security.yml" />
         <option value="$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig" />
-        <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php" />
-        <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php" />
         <option value="$PROJECT_DIR$/code/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php" />
       </list>
     </option>
   </component>
@@ -380,6 +332,15 @@
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UserManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UserManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Exception" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -479,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534587730965</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="routing and security refactored">
+      <created>1534591748855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534591748855</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19776000" />
+    <option name="totallyTimeSpent" value="20751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1347" y="25" width="1853" height="1055" extended-state="6" />
@@ -550,7 +518,8 @@
     <MESSAGE value="user and groups added" />
     <MESSAGE value="check if group is empty added" />
     <MESSAGE value="code sniffer fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="code sniffer fixes" />
+    <MESSAGE value="routing and security refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="routing and security refactored" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -800,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -817,50 +779,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/code/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#63#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#37#64#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php">
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="51" column="75" lean-forward="true" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="75" />
+        <state relative-caret-position="381">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding>
-            <element signature="e#40#67#0#PHP" expanded="true" />
+            <element signature="e#37#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="270">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ParameterBag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="816" column="53" selection-start-line="816" selection-start-column="53" selection-end-line="816" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/vendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/UniqueConstraintViolationException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/vendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/ConstraintViolationException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/vendor/doctrine/dbal/lib/Doctrine/DBAL/Exception/ServerException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="28" column="90" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="90" />
+          <folding>
+            <element signature="e#40#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
+          <folding>
+            <element signature="e#40#67#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -12,7 +12,6 @@ remove-user:
     controller: AppBundle\Controller\UsersController::removeUserAction
     methods:    [GET]
 
-
 add-group:
     path:       /api/add-group
     controller: AppBundle\Controller\GroupsController::addGroupAction

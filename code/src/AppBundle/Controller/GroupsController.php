@@ -5,7 +5,7 @@ namespace AppBundle\Controller;
 use AppBundle\Entity\Group;
 use AppBundle\Entity\User;
 use AppBundle\Service\GroupManager;
-use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
+use Doctrine\DBAL\Exception\ConstraintViolationException;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -26,8 +26,8 @@ class GroupsController extends Controller
                 'status' => 'group created',
                 'group_id' => $group->getId(),
             ]);
-        } catch (UniqueConstraintViolationException $exception) {
-            return new JsonResponse(['error' => 'UniqueConstraintViolationException']);
+        } catch (ConstraintViolationException $exception) {
+            return new JsonResponse(['error' => $exception->getPrevious()->getMessage()]);
         } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
         }
@@ -36,7 +36,6 @@ class GroupsController extends Controller
     /**
      * @param Group $group
      * @return JsonResponse
-     *
      */
     public function removeGroupAction(Group $group)
     {

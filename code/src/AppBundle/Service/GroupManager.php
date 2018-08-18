@@ -4,6 +4,7 @@ namespace AppBundle\Service;
 
 use AppBundle\Entity\Group;
 use AppBundle\Entity\User;
+use AppBundle\Service\Exception\GroupNotEmptyException;
 use Doctrine\ORM\EntityManager;
 
 class GroupManager
@@ -34,11 +35,16 @@ class GroupManager
 
     /**
      * @param Group $group
+     * @throws GroupNotEmptyException
      * @throws \Doctrine\ORM\ORMException
      * @throws \Doctrine\ORM\OptimisticLockException
      */
     public function remove(Group $group)
     {
+        if(!$group->getUsers()->isEmpty()) {
+            throw new GroupNotEmptyException($group->getId());
+        }
+
         $this->entityManager->remove($group);
         $this->entityManager->flush();
     }

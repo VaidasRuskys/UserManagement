@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d25f0a-44b0-4968-ae09-9383f464121f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/Service/Exception/GroupNotEmptyException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +34,7 @@
           <entry key="json" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="30" />
+          <entry key="php" value="32" />
           <entry key="xml" value="2" />
           <entry key="yml" value="9" />
         </counts>
@@ -47,7 +43,7 @@
         <counts>
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="30" />
+          <entry key="PHP" value="32" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="9" />
@@ -60,8 +56,8 @@
           <entry key="gitignore" value="18" />
           <entry key="json" value="19" />
           <entry key="md" value="1" />
-          <entry key="php" value="1840" />
-          <entry key="txt" value="60" />
+          <entry key="php" value="2116" />
+          <entry key="txt" value="82" />
           <entry key="yml" value="114" />
         </counts>
       </usages-collector>
@@ -69,8 +65,8 @@
         <counts>
           <entry key="JSON" value="19" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="1840" />
-          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="PHP" value="2116" />
+          <entry key="PLAIN_TEXT" value="157" />
           <entry key="YAML" value="114" />
         </counts>
       </usages-collector>
@@ -78,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="342">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#40#66#0#PHP" expanded="true" />
               </folding>
@@ -102,13 +98,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="e#37#64#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/Exception/GroupNotEmptyException.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="932">
+              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+              <folding>
+                <element signature="e#36#84#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,11 +163,12 @@
         <option value="$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php" />
         <option value="$PROJECT_DIR$/code/app/config/services.yml" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsCotnroller.php" />
-        <option value="$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/Controller/GroupsController.php" />
+        <option value="$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php" />
+        <option value="$PROJECT_DIR$/code/src/AppBundle/Service/Exception/GroupNotEmptyException.php" />
+        <option value="$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php" />
       </list>
     </option>
   </component>
@@ -350,11 +368,32 @@
       <option name="project" value="LOCAL" />
       <updated>1534490449633</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="user and groups added">
+      <created>1534585530839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534585530839</updated>
+    </task>
+    <task id="LOCAL-00005" summary="user and groups added">
+      <created>1534585634511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534585634511</updated>
+    </task>
+    <task id="LOCAL-00006" summary="user and groups added">
+      <created>1534585685784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534585685784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13590000" />
+    <option name="totallyTimeSpent" value="14496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1347" y="25" width="1853" height="1055" extended-state="6" />
@@ -372,7 +411,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.37555555" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.14666666" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -418,7 +457,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="doctrine migrations added" />
     <MESSAGE value="fos user bundle added" />
-    <option name="LAST_COMMIT_MESSAGE" value="fos user bundle added" />
+    <MESSAGE value="user and groups added" />
+    <option name="LAST_COMMIT_MESSAGE" value="user and groups added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -661,12 +701,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php">
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="342">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
-            <element signature="e#36#80#0#PHP" expanded="true" />
+            <element signature="e#40#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,22 +721,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php">
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/Exception/GroupNotEmptyException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Entity/Group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="932">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
-            <element signature="e#37#64#0#PHP" expanded="true" />
+            <element signature="e#36#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Controller/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/GroupManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="198">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
+            <element signature="e#37#64#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

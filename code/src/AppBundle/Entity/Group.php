@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use FOS\UserBundle\Model\Group as BaseGroup;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -19,13 +20,13 @@ class Group extends BaseGroup
     protected $id;
 
     /**
-     * Many Groups have Many Users.
+     * @param ArrayCollection
      * @ORM\ManyToMany(targetEntity="User", mappedBy="groups")
      */
     protected $users;
 
     /**
-     * @return mixed
+     * @return int
      */
     public function getId()
     {
@@ -44,7 +45,7 @@ class Group extends BaseGroup
     }
 
     /**
-     * @return mixed
+     * @return string
      */
     public function getName()
     {
@@ -60,5 +61,13 @@ class Group extends BaseGroup
         $this->name = $name;
 
         return $this;
+    }
+
+    /**
+     * @return ArrayCollection
+     */
+    public function getUsers()
+    {
+        return $this->users;
     }
 }

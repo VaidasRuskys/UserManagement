@@ -29,7 +29,6 @@ class UsersController extends Controller
         } catch (ConstraintViolationException $exception) {
             return new JsonResponse(['error' => $exception->getPrevious()->getMessage()]);
         } catch (\Exception $exception) {
-            throw $exception;
             return new JsonResponse(['error' => $exception->getMessage()]);
         }
     }

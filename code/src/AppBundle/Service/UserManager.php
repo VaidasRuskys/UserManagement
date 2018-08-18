@@ -35,4 +35,15 @@ class UserManager
 
         return $user;
     }
+
+    /**
+     * @param User $user
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
+    public function remove(User $user)
+    {
+        $this->entityManager->remove($user);
+        $this->entityManager->flush();
+    }
 }

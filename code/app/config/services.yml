@@ -37,3 +37,7 @@ services:
     AppBundle\Service\UserManager:
         arguments:
             - "@doctrine.orm.entity_manager"
+
+    AppBundle\Service\GroupManager:
+        arguments:
+            - "@doctrine.orm.entity_manager"

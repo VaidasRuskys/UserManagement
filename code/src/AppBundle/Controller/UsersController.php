@@ -15,8 +15,10 @@ class UsersController extends Controller
 {
     /**
      * @Route("/add-user")
-     *
      * @Security("has_role('ROLE_ADMIN')")
+     *
+     * @param Request $request
+     * @return JsonResponse
      */
     public function addUserAction(Request $request)
     {
@@ -26,14 +28,36 @@ class UsersController extends Controller
             $user = $userManager->create('newUser1');
             return new JsonResponse([
                 'status' => 'user created',
-                'userId' => $user->getId(),
+                'user_id' => $user->getId(),
             ]);
 
-        }catch (UniqueConstraintViolationException $exception) {
+        } catch (UniqueConstraintViolationException $exception) {
             return new JsonResponse(['error' => 'UniqueConstraintViolationException']);
          } catch (\Exception $exception) {
-            throw $exception;
             return new JsonResponse(['error' => $exception->getMessage()]);
          }
+    }
+
+    /**
+     * @Route("/remove-user/{user}")
+     * @Security("has_role('ROLE_ADMIN')")
+     *
+     * @param User $user
+     * @return JsonResponse
+     *
+     */
+    public function removeUserAction(User $user)
+    {
+        /** @var UserManager $userManager */
+        $userManager = $this->get(UserManager::class);
+        try {
+            $userManager->remove($user);
+            return new JsonResponse([
+                'status' => 'user removed'
+            ]);
+
+        } catch (\Exception $exception) {
+            return new JsonResponse(['error' => $exception->getMessage()]);
+        }
     }
 }

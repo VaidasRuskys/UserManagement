@@ -64,6 +64,17 @@ class Group extends BaseGroup
     }
 
     /**
+     * @param ArrayCollection $users
+     * @return $this
+     */
+    public function setUsers($users)
+    {
+        $this->users = $users;
+
+        return $this;
+    }
+
+    /**
      * @return ArrayCollection
      */
     public function getUsers()

@@ -1,6 +1,7 @@
 <?php
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -38,14 +39,14 @@ class User extends BaseUser
      */
     public function getGroups()
     {
-        return $this->groups;
+        return $this->groups ?: $this->groups = new ArrayCollection();
     }
 
     /**
-     * @param $groups
+     * @param ArrayCollection $groups
      * @return $this
      */
-    public function setGroups($groups)
+    public function setGroups(ArrayCollection $groups)
     {
         $this->groups = $groups;
 

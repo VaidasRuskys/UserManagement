@@ -3,6 +3,7 @@
 namespace AppBundle\Service;
 
 use AppBundle\Entity\User;
+use AppBundle\Service\Exception\UserNameInvalidException;
 use Doctrine\ORM\EntityManager;
 
 class UserManager
@@ -18,11 +19,16 @@ class UserManager
     /**
      * @param $username
      * @return User
+     * @throws UserNameInvalidException
      * @throws \Doctrine\ORM\ORMException
      * @throws \Doctrine\ORM\OptimisticLockException
      */
     public function create($username)
     {
+        if (empty($username)) {
+            throw new UserNameInvalidException();
+        }
+
         $user = new User();
         $user
             ->setUsername($username)

@@ -4,6 +4,7 @@ namespace AppBundle\Service;
 
 use AppBundle\Entity\Group;
 use AppBundle\Entity\User;
+use AppBundle\Service\Exception\GroupNameInvalidException;
 use AppBundle\Service\Exception\GroupNotEmptyException;
 use Doctrine\ORM\EntityManager;
 
@@ -20,11 +21,16 @@ class GroupManager
     /**
      * @param $groupName
      * @return Group
+     * @throws GroupNameInvalidException
      * @throws \Doctrine\ORM\ORMException
      * @throws \Doctrine\ORM\OptimisticLockException
      */
     public function create($groupName)
     {
+        if (empty($groupName)) {
+            throw new GroupNameInvalidException();
+        }
+
         $group = new Group($groupName);
 
         $this->entityManager->persist($group);

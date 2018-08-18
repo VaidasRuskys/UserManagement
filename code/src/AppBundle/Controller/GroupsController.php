@@ -6,18 +6,13 @@ use AppBundle\Entity\Group;
 use AppBundle\Entity\User;
 use AppBundle\Service\GroupManager;
 use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Routing\Annotation\Route;
 
 class GroupsController extends Controller
 {
     /**
-     * @Route("/add-group")
-     * @Security("has_role('ROLE_ADMIN')")
-     *
      * @param Request $request
      * @return JsonResponse
      */
@@ -26,7 +21,7 @@ class GroupsController extends Controller
         /** @var GroupManager $groupManager */
         $groupManager = $this->get(GroupManager::class);
         try {
-            $group = $groupManager->create('newGroup');
+            $group = $groupManager->create($request->get('groupName'));
             return new JsonResponse([
                 'status' => 'group created',
                 'group_id' => $group->getId(),
@@ -39,9 +34,6 @@ class GroupsController extends Controller
     }
 
     /**
-     * @Route("/remove-group/{group}")
-     * @Security("has_role('ROLE_ADMIN')")
-     *
      * @param Group $group
      * @return JsonResponse
      *
@@ -61,9 +53,6 @@ class GroupsController extends Controller
     }
 
     /**
-     * @Route("/group-add-user/{group}/{user}")
-     * @Security("has_role('ROLE_ADMIN')")
-     *
      * @param Group $group
      * @param User $user
      * @return JsonResponse
@@ -84,9 +73,6 @@ class GroupsController extends Controller
     }
 
     /**
-     * @Route("/group-remove-user/{group}/{user}")
-     * @Security("has_role('ROLE_ADMIN')")
-     *
      * @param Group $group
      * @param User $user
      * @return JsonResponse

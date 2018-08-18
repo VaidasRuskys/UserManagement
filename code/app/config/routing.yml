@@ -2,5 +2,37 @@ app:
     resource: '@AppBundle/Controller/'
     type: annotation
 
+add-user:
+    path:       /api/add-user
+    controller: AppBundle\Controller\UsersController::addUserAction
+    methods:    [POST]
+
+remove-user:
+    path:       /api/remove-user/{user}
+    controller: AppBundle\Controller\UsersController::removeUserAction
+    methods:    [GET]
+
+
+add-group:
+    path:       /api/add-group
+    controller: AppBundle\Controller\GroupsController::addGroupAction
+    methods:    [POST]
+
+remove-group:
+    path:       /api/remove-group/{group}
+    controller: AppBundle\Controller\GroupsController::removeGroupAction
+    methods:    [GET]
+
+group-add-user:
+    path:       /api/group-add-user/{group}/{user}
+    controller: AppBundle\Controller\GroupsController::addUserAction
+    methods:    [GET]
+
+group-remove-user:
+    path:       /api/group-remove-user/{group}/{user}
+    controller: AppBundle\Controller\GroupsController::removeUserAction
+    methods:    [GET]
+
+
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"

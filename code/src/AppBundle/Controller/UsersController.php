@@ -30,12 +30,11 @@ class UsersController extends Controller
                 'status' => 'user created',
                 'user_id' => $user->getId(),
             ]);
-
         } catch (UniqueConstraintViolationException $exception) {
             return new JsonResponse(['error' => 'UniqueConstraintViolationException']);
-         } catch (\Exception $exception) {
+        } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
-         }
+        }
     }
 
     /**
@@ -52,10 +51,11 @@ class UsersController extends Controller
         $userManager = $this->get(UserManager::class);
         try {
             $userManager->remove($user);
-            return new JsonResponse([
-                'status' => 'user removed'
-            ]);
-
+            return new JsonResponse(
+                [
+                    'status' => 'user removed'
+                ]
+            );
         } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
         }

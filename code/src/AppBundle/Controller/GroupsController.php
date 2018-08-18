@@ -31,10 +31,9 @@ class GroupsController extends Controller
                 'status' => 'group created',
                 'group_id' => $group->getId(),
             ]);
-
         } catch (UniqueConstraintViolationException $exception) {
             return new JsonResponse(['error' => 'UniqueConstraintViolationException']);
-        }   catch (\Exception $exception) {
+        } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
         }
     }
@@ -56,7 +55,6 @@ class GroupsController extends Controller
             return new JsonResponse([
                 'status' => 'group removed'
             ]);
-
         } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
         }
@@ -80,7 +78,6 @@ class GroupsController extends Controller
             return new JsonResponse([
                 'status' => 'user added to group'
             ]);
-
         } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
         }
@@ -104,10 +101,8 @@ class GroupsController extends Controller
             return new JsonResponse([
                 'status' => 'user removed from group'
             ]);
-
         } catch (\Exception $exception) {
             return new JsonResponse(['error' => $exception->getMessage()]);
         }
     }
-
 }

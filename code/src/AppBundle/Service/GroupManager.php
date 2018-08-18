@@ -41,7 +41,7 @@ class GroupManager
      */
     public function remove(Group $group)
     {
-        if(!$group->getUsers()->isEmpty()) {
+        if (!$group->getUsers()->isEmpty()) {
             throw new GroupNotEmptyException($group->getId());
         }
 

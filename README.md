@@ -11,4 +11,5 @@ run 'docker exec usermanagement_web_1 /var/www/bin/console doctrine:migrations:m
 run 'docker exec usermanagement_web_1 /var/www/bin/console doctrine:fixtures:load'
 
 Database structure:
+
 ![Database structure](database-structure.png)

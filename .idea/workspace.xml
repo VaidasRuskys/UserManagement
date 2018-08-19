@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31d25f0a-44b0-4968-ae09-9383f464121f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/AppBundle/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UserManagement.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UserManagement.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +27,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="dist" value="1" />
-          <entry key="dockerfile" value="1" />
+          <entry key="dockerfile" value="2" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="2" />
           <entry key="json" value="5" />
           <entry key="lock" value="1" />
           <entry key="log" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="php" value="80" />
           <entry key="twig" value="3" />
           <entry key="xml" value="2" />
@@ -48,9 +43,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="6" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PHP" value="80" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Twig" value="3" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="14" />
@@ -62,19 +57,19 @@
           <entry key="env" value="15" />
           <entry key="gitignore" value="18" />
           <entry key="json" value="38" />
-          <entry key="md" value="1" />
-          <entry key="php" value="3577" />
+          <entry key="md" value="37" />
+          <entry key="php" value="3578" />
           <entry key="twig" value="460" />
-          <entry key="txt" value="189" />
+          <entry key="txt" value="203" />
           <entry key="yml" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="38" />
-          <entry key="Markdown" value="1" />
-          <entry key="PHP" value="3577" />
-          <entry key="PLAIN_TEXT" value="264" />
+          <entry key="Markdown" value="37" />
+          <entry key="PHP" value="3578" />
+          <entry key="PLAIN_TEXT" value="278" />
           <entry key="Twig" value="460" />
           <entry key="YAML" value="245" />
         </counts>
@@ -106,14 +101,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/src/AppBundle/DataFixtures/AppFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="288">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="e#42#68#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -128,34 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-              <folding>
-                <element signature="e#35#83#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/AppBundle/Service/UserManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="e#37#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/vendor/friendsofsymfony/user-bundle/Model/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+              <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -199,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -231,6 +222,7 @@
         <option value="$PROJECT_DIR$/code/composer.json" />
         <option value="$PROJECT_DIR$/code/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/code/src/AppBundle/DataFixtures/AppFixtures.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -436,7 +428,7 @@
       <updated>1534440546603</updated>
       <workItem from="1534440547963" duration="4068000" />
       <workItem from="1534489573236" duration="4356000" />
-      <workItem from="1534665983042" duration="1352000" />
+      <workItem from="1534665983042" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1534441788459</created>
@@ -522,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534599700296</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixtures added">
+      <created>1534667582845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534667582845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26016000" />
+    <option name="totallyTimeSpent" value="27856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1347" y="25" width="1853" height="1055" extended-state="6" />
@@ -544,7 +543,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.14666666" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.29444444" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -596,23 +595,10 @@
     <MESSAGE value="routing and security refactored" />
     <MESSAGE value="small fixes" />
     <MESSAGE value="tests created" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests created" />
+    <MESSAGE value="fixtures added" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixtures added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ManagerRegistry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/var/logs/dev.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="137" column="82" selection-start-line="137" selection-start-column="82" selection-end-line="137" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -934,17 +920,34 @@
     <entry file="file://$PROJECT_DIR$/code/vendor/friendsofsymfony/user-bundle/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/AppBundle/DataFixtures/AppFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="288">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="e#42#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
